@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #615c69;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Estilização Fixas*/
+.container {
+    max-width: 1250px;
+    margin: auto;
+}
+header {
+    text-align: center;
+    background: #2d280a;
+    color: white;
+    padding: 10px;
+}
+.title {
+    font-size: 25px;
+}
+section {
+    padding: 220px;
+    background-image: url(../image/banner.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+}
+.formcontainer {
+    width: 230px;
+    background-color: #880c0cbb;
+    padding: 20px;
+    float: right;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.mb {
+    margin-bottom: 15px;
+}
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../image/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+.painel {
+    background-color: #071a1e;
+    padding: 90px;
+    text-align: center;
+}
+footer {
+    background-color: #071a1e;
+    padding: 10px;
+    text-align: center;
+}
+.picture {
+    width: 252px;
+}
+.description {
+    
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: justify;
+}
+.description p, .description h3 {
+    margin-bottom: 24px;
+}
+.description h3 {
+    font-size: 23px;
+}
+
+@media screen and (max-width: 900px) {
+    .formcontainer {
+        float: none;
+        margin: auto;
+    }
+    .description {
+        max-width: none;
+    }
+}
+.meklhire {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topnav{
+    background-image: url('../image/banner.jpg');
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #0f57159a;
+    color: white;
+  }
+  /*Estilização da Página História*/
+  .history {
+    color: white;
+    text-align: justify;
+}
+.inicio {
+    color: white;
+    text-align: justify;
+}
+#dov{
+    text-align: center;
+}
+.history h3 {
+    text-align: center;
+}
+.history h4{
+    text-align: center;
+}
+.history h5{
+    text-align: center;
+}
+.history p {
+    font-size: 17px;
+}
+
+/*Estilização Vídeo Youtube*/
+.video-container {
+    text-align: center;
+}
+.video-container iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilização dos botões*/
+#btn{
+    font-size: 19px;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(63, 85, 11, 0.267);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #21f71a5e;
+    -webkit-box-reflect : below 10px linear-gradient(to bottom, rgb(0,0,0,0,0), rgb(0,0,0,4));
+}
+#btn:active{
+    scale: 0.92;
+}
+#btn:hover{
+ background: rgba(20, 190, 202, 0.267);
+ background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0% rgba(31, 215, 232, 0.873)) 60% 
+ color  rgb(11, 11, 199)
+}
