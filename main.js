@@ -3,7 +3,7 @@ function MudarFundo() {
 //var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
 
 // Aplique a cor ao plano de fundo do body
-document.body.style.backgroundImage = "url('./image/madeira.png')";
+document.body.style.backgroundImage = "url('../image/madeira.png')";
 }
 function Filme(){
 
